@@ -7,9 +7,9 @@
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="reveal.js/css/reveal.css"/>
+<link rel="stylesheet" href="file:///Users/kohkichi/Data/Slides/reveal.js/css/reveal.css"/>
 
-<link rel="stylesheet" href="reveal.js/css/theme/oer-reveal.css" id="theme"/>
+<link rel="stylesheet" href="file:///Users/kohkichi/Data/Slides/reveal.js/css/theme/oer-reveal.css" id="theme"/>
 
 <link rel="stylesheet" href="./custom_oer.css"/>
 
@@ -19,7 +19,7 @@
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'reveal.js/css/print/pdf.css';
+        link.href = 'file:///Users/kohkichi/Data/Slides/reveal.js/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     }
 </script>
@@ -35,8 +35,9 @@ taipapa, 織田信長, 豊臣秀吉, 徳川家康</h5>
 
 
 <section>
-<section id="slide-orgc5a91ca">
-<h2 id="orgc5a91ca">背景と目的</h2>
+<section id="slide-org834b46f">
+<h2 id="org834b46f">背景と目的</h2>
+<div class="shadowLavender">
 <ul>
 <li>hogeとfugaを比較してみると，一方で難易度の高い症例でも他方では容易に行える場合も多い.</li>
 <li>当施設では，一方に片寄ることなく，hogeとfugaを相補的に用いることにより合併症の減少を目指す方針をとっている．</li>
@@ -44,12 +45,13 @@ taipapa, 織田信長, 豊臣秀吉, 徳川家康</h5>
 <li>参照サイト：<a href="https://github.com/yjwen/org-reveal">Introduction to Org-Reveal</a></li>
 
 </ul>
+</div>
 
 </section>
 </section>
 <section>
-<section id="slide-orgcf26f44">
-<h2 id="orgcf26f44">Table</h2>
+<section id="slide-org19bb629">
+<h2 id="org19bb629">Table（色つけあり）</h2>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -120,85 +122,86 @@ taipapa, 織田信長, 豊臣秀吉, 徳川家康</h5>
 </section>
 </section>
 <section>
-<section id="slide-org28f4884">
-<h2 id="org28f4884">hogefuga症例の画像</h2>
-
-<div class="figure">
-<p><img src="./figures/hoge_fuga.jpg" alt="hoge_fuga.jpg" />
-</p>
-</div>
+<section id="slide-org77f0fa3">
+<h2 id="org77f0fa3">画像（shadowあり）</h2>
+<div class="figure image_carousel"><img src="./figures/hoge_fuga.jpg" alt=""/></div>
 
 </section>
 </section>
 <section>
-<section id="slide-orgc1172e3">
-<h2 id="orgc1172e3">hogefuga症例の画像２</h2>
-<p class="fragment roll-in">
-遅延表示も可能
-</p>
-
-<div class="figure">
-<p><img src="./figures/hoge_fuga.jpg" alt="hoge_fuga.jpg" class="fragment roll-in" height="600px" />
-</p>
-</div>
-</section>
-</section>
-<section>
-<section id="slide-orgb639a44">
-<h2 id="orgb639a44">hogefuga症例の画像３</h2>
-<ul class="fragment roll-in">
+<section id="slide-org8a1ae5d">
+<h2 id="org8a1ae5d">画像（遅延表示など）</h2>
+<div class="shadowLavender">
+<ul>
 <li>遅延表示も可能</li>
 
 </ul>
 <ul class="fragment roll-in">
-<li>画像の大きさを変更することも可能</li>
+<li><p>
+画像の大きさを変更することも可能
+</p>
+</div>
+<br></li>
 
 </ul>
 
-<div class="figure">
-<p><img src="./figures/hoge_fuga.jpg" alt="hoge_fuga.jpg" class="fragment roll-in" height="400px" />
-</p>
-</div>
+<div class="figure image_carousel"><img src="./figures/hoge_fuga.jpg" alt="" style="width:40%" /></div>
 
 </section>
 </section>
 <section>
-<section id="slide-orgf7c547e">
-<h2 id="orgf7c547e">ダブルコラムも可能</h2>
+<section id="slide-org1a0cd39">
+<h2 id="org1a0cd39">ダブルコラムも可能</h2>
 <div class="column" style="float:left; width: 50%">
+<div class="shadowLavender">
 <p>
 Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.
 </p>
 </div>
-<div class="column" style="float:right; width: 50%">
-
-<div class="figure">
-<p><img src="./figures/hoge_fuga.jpg" alt="hoge_fuga.jpg" />
-</p>
-<p><span class="figure-number">Figure 4: </span>Hoge-fuga (2020)</p>
 </div>
+<div class="column" style="float:right; width: 50%">
+<div class="figure image_carousel"  ><img src="./figures/hoge_fuga.jpg" alt="" style="width:80%" /><figcaption>Hoge-fuga (2020)</figcaption></div>
 </div>
 
 <p class="fragment roll-in">
 キャプションも可能
 </p>
+
 </section>
 </section>
 <section>
-<section id="slide-orga0bd4e3">
-<h2 id="orga0bd4e3">動画もOK</h2>
+<section id="slide-orgb09d24f">
+<h2 id="orgb09d24f">動画もOK</h2>
 <video controls data-autoplay src="./Movies/Knight-33990.mp4"></video>
 </section>
 </section>
 <section>
-<section id="slide-org83f52cc">
-<h2 id="org83f52cc">動画もOK（大きな画面）</h2>
+<section id="slide-org9493ad0">
+<h2 id="org9493ad0">動画もOK（大きな画面）</h2>
 <video class="stretch" controls data-autoplay src="./Movies/Knight-33990.mp4"></video>
+
+</section>
+</section>
+<section>
+<section id="slide-orgf43f7f2">
+<h2 id="orgf43f7f2">D3.js (Rainbow Worm)</h2>
+<div class="column" style="float:left; width: 50%">
+<div class="shadowLavender">
+<p>
+Nullam eu ante vel est convallis dignissim.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.
+</p>
+</div>
+</div>
+<div class="column" style="float:right; width: 50%">
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<div id='demo'></div>
+<script src="RainbowWorm.js"></script>
+</div>
 </section>
 </section>
 </div>
 </div>
-<script src="reveal.js/js/reveal.js"></script>
+<script src="file:///Users/kohkichi/Data/Slides/reveal.js/js/reveal.js"></script>
 
 <script>
 // Full list of configuration options available here:
@@ -213,22 +216,22 @@ multiplex: {
 
 // Optional libraries used to extend on reveal.js
 dependencies: [
-{ src: 'reveal.js/bower_components/reveal.js-plugins/chalkboard/chalkboard.js' },
-{src: 'reveal.js/bower_components/reveal.js-menu/menu.js'},
- { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
- { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-    { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }],
-    keyboard: {
-	    67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
-	    66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
-	    46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
-	     8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
-	    68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
-	    88: function() { RevealChalkboard.colorNext() },	// cycle colors forward when 'x' is pressed
-	    89: function() { RevealChalkboard.colorPrev() },	// cycle colors backward when 'y' is pressed
-	},
+{ src: 'file:///Users/kohkichi/Data/Slides/reveal.js/bower_components/reveal.js-plugins/chalkboard/chalkboard.js' },
+{src: 'file:///Users/kohkichi/Data/Slides/reveal.js/bower_components/reveal.js-menu/menu.js'},
+ { src: 'file:///Users/kohkichi/Data/Slides/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'file:///Users/kohkichi/Data/Slides/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///Users/kohkichi/Data/Slides/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///Users/kohkichi/Data/Slides/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'file:///Users/kohkichi/Data/Slides/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }],
+     keyboard: {
+ 	67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+        66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+        46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+         8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+        68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+        88: function() { RevealChalkboard.colorNext() },	// cycle colors forward when 'x' is pressed
+        89: function() { RevealChalkboard.colorPrev() },	// cycle colors backward when 'y' is pressed
+     },
 });
 </script>
 </body>
