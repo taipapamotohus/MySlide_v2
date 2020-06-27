@@ -2,10 +2,6 @@
 //     width = 960 - margin.left - margin.right,
 //     height = 500 - margin.top - margin.bottom;
 
-// var margin = {top: 120, right: 60, bottom: 60, left: 60},
-//     width = 576 - margin.left - margin.right,
-//     height = 360 - margin.top - margin.bottom;
-
 var margin = {top: 120, right: 60, bottom: 60, left: 60},
     width = 576 - margin.left - margin.right,
     height = 360 - margin.top - margin.bottom;
