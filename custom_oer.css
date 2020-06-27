@@ -55,23 +55,98 @@ div.footer {
 /* https://github.com/yjwen/org-reveal/issues/38 */
 .reveal li { margin: 0; padding: 0.5em}
 
+/* http://nayucolony.hatenablog.com/entry/2017/08/20/074709 */
 /* Push each slide change to the browser history */
 /* スライドの変更をブラウザの履歴に記録する */
-Reveal.initialize({
-    history: true,
-  });
+/* Reveal.initialize({ */
+/*     history: true */
+/*   }) */
+
+/* https://www.web-officer.com/html-css/css-to-shade-images.html */
+/* .effect { */
+/*   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); */
+/* } */
 
 
+/* http://www.html5-memo.com/webtips/boxshadow/ */
+/* https://gray-code.com/html_css/adjustment-size-of-background-image-for-width-of-element/ */
+/* .shadowLavender{ */
+/*   /\*影を入れて角を丸くし背景色をラベンダーにする*\/ */
+/*   -webkit-box-shadow: 0 4px 8px 0 #000005; */
+/*   -moz-box-shadow: 0 4px 8px 0 #000005; */
+/*   box-shadow: 0 4px 8px 0 #000005; */
+/*   border-radius: 20px; */
+/*   padding-left: 15pt; */
+/*   background-color: Lavender; */
+/*   /\* background-size: auto auto; *\/ */
+/* } */
 
-/* https://www.bealignedwebdesign.com/blog/add-shadow-box-to-squarespace-website-images */
-/* Add Shadow Box to Squarespace Blog Post Images */
-
-.view-item.collection-type-blog .image-block {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/* http://www.html5-memo.com/webtips/boxshadow/ */
+/* https://gray-code.com/html_css/adjustment-size-of-background-image-for-width-of-element/ */
+.shadowLavender{
+  /*影を入れて角を丸くし背景色をラベンダーにする*/
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding-left: 15pt;
+  /* background-color: Lavender; */
+  background-color: rgba(230, 230, 250, 0.5);
+  /* background-size: auto auto; */
 }
 
-/* Remove Box Shadow on Footer Images (if applicable) */
 
-.Footer .image-block {
-  box-shadow: none !important;
+
+
+/* https://stackoverflow.com/questions/6930991/box-shadow-on-img-in-css */
+
+.image_carousel img {
+  /* margin-right: 14px; */
+  /* float: left; */
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5);
+  /* display: block; */
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  /* padding:5px 10px; */
+}
+
+/* テーブルのセルの色を変更 */
+/* .reveal section table th { */
+/*   background-color: #CDC1C5; */
+/*   font-weight: bold; } */
+
+/* .reveal section table tr:nth-child(even) { */
+/*   background-color:  #EEE0E5; } */
+
+/* .reveal section table tr:nth-child(odd) { */
+/*   background-color:  #FFF0F5; } */
+
+/* テーブルのセルの色を変更 */
+.reveal section table th {
+  background-color: rgba(230, 230, 250, 1);
+  font-weight: bold; }
+
+.reveal section table tr:nth-child(even) {
+  background-color:  rgba(230, 230, 250, 0.7); }
+
+.reveal section table tr:nth-child(odd) {
+  background-color:  rgba(230, 230, 250, 0.3); }
+
+
+
+
+
+/* https://stackoverflow.com/questions/17540278/horizontal-alignment-of-an-image */
+.center {
+  text-align: center;
+}
+
+
+/* https://wayohoo.com/programming/css/how-to-center-the-img-tag.html */
+.centerBlock {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
